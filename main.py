@@ -31,5 +31,15 @@ def cube(n):
 x = cube(n)
 print(x)
 
-## the result will be 27
+## Result : 27
 
+"""""""""""""""""""""""""""""""""""""""""""""""
+"""" List Comprehensions 
+"""" creating a list with prev. cube function
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+xList = range(1,11)
+x = [cube(x) for x in xList] 
+print(x)
+
+# Result : [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
