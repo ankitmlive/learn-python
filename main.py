@@ -20,6 +20,16 @@ def is_leap(year):
 x = is_leap(year)
 print(x)
 
-"""""""""""""""""""""""""""""""""""""""""
-"""" List comprehensions """"""""""""""""
-"""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""
+""""    Cube Volume where n is len       """""
+"""" Volume = length x width x height    """""
+""""""""""""""""""""""""""""""""""""""""""""""
+
+n = 3
+def cube(n):
+	return n**3
+x = cube(n)
+print(x)
+
+## the result will be 27
+
